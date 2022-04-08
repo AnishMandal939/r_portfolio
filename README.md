@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+## Authors
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [@AnishMandal939](https://www.github.com/AnishMandal939)
 
-## Available Scripts
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](http://anishmandal.iceiy.com/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anish-mandal-07b60a177)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/AnishMa03840113)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Client:** React, Redux, MaterialUI, overlay-navbar
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Server:** Node, Express
 
-### `npm test`
+**Database:** MongoDB
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+# To create React app with global command
+ - [create react app] - `npx create-react-app project_name`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Install Dependencies
+    - npm i react-router-dom three axios overlay-navbar @reduxjs/toolkit
+    
+    1) Three -> is  a threejs library for creating 3d modals
+    2) axios -> 
+    3) overlay-navbar ->
+    4) reduxjs/tolkit ->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    5) material-ui -> react ui library
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### react ui library - material-ui
 
-### `npm run eject`
+     npm install @mui/material @emotion/react @emotion/styled
+     npm i @mui/icons-material react-icons
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+     1) react icons -> for overlay navbar
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### For store management react-redux
+    npm i react-redux
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Color Reference
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Example Color | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
+| Example Color | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
+| Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
+| Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+----------
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## API Reference
 
-### Making a Progressive Web App
+#### Get all items
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```http
+  GET /api/items
+```
 
-### Advanced Configuration
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+#### Get item
 
-### Deployment
+```http
+  GET /api/items/${id}
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. Id of item to fetch |
 
-### `npm run build` fails to minify
+#### add(num1, num2)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Takes two numbers and returns the sum.
+
+
+
+## Lessons Learned
+
+What did you learn while building this project? What challenges did you face and how did you overcome them?
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at nodejsanishmandal@gmail.com
