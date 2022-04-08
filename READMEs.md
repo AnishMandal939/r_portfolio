@@ -1,4 +1,4 @@
-## Authors
+<!-- ## Authors
 
 - [@AnishMandal939](https://www.github.com/AnishMandal939)
 
@@ -94,4 +94,4 @@ What did you learn while building this project? What challenges did you face and
 
 ## Feedback
 
-If you have any feedback, please reach out to us at nodejsanishmandal@gmail.com
+If you have any feedback, please reach out to us at nodejsanishmandal@gmail.com -->
