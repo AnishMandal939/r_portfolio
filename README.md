@@ -37,13 +37,25 @@
      npm i @mui/icons-material react-icons
 
      1) react icons -> for overlay navbar
+     2) npm i @mui/lab
 
 ### For store management react-redux
     npm i react-redux
 
+### React router dom 
+  - switch has been replaced with Routes after version 6
+
+---
+
+Using threejs we will make planet type background that will be drawn on canvas so we have used canvas
+
+- [@Learn More about threejs](https://threejs.org/)
+
+  * To control re-rendering by default we use useEffect for canvas , for threejs
 
 
 ---
+
 
 ## Color Reference
 
